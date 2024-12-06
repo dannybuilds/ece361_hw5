@@ -181,3 +181,32 @@ static void in_order_recursive(Node_t* node) {
         in_order_recursive(node->right);
     }
 }
+
+
+
+/**
+ * delete_tree() - recursively deletes/frees all nodes in the tree, deallocates
+ *                 all memory used by the BST
+ * @param tree   Represents pointer to the tree to delete/free
+ */
+void delete_tree(Tree_t* tree) {
+    if (tree != NULL) {
+        delete_tree_recursive(tree->root);
+        free(tree);
+    }
+}
+
+
+
+/**
+ * delete_tree_recursive() - Helper function to recursively delete/free nodes
+ * 
+ * @param node   Current node being deleted/freed
+ */
+static void delete_tree_recursive(Node_t* node) {
+    if (node != NULL) {
+        delete_tree_recursive(node->left);
+        delete_tree_recursive(node->right);
+        free(node);
+    }
+}
