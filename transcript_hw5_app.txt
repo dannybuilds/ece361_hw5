@@ -1,0 +1,181 @@
+Script started on Fri Dec  6 07:42:44 2024
+[0m[49m[39m[27m[24m[K
+
+[2A7[0m[49m[39m[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 07:42:44 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[?2004h[?25l8[0m[49m[39m[27m[24m[J]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[34m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                          [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 07:42:44 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?25h[?2004hw[32mw[39m[32mw[39m[90mhoami && ls[39m[11D[32mw[32mh[39m[1m[31mw[1m[31mh[0m[39m[1m[31mw[1m[31mh[1m[31mo[0m[39m[0m[32mw[0m[32mh[0m[32mo[39m[39ma[39mm[39mi[39m [39m&[39m&[39m [39ml[39ms[10D[32mo[32ma[32mm[32mi[39m[4C[32ml[32ms[39m[?1l>[?2004l
+]2;whoami && eza --icons=always]1;whoamidannyvr
+[33m [1mfloat_rndm.c[0m  [33m [1miom361_r2.c[0m  [33m [1;4mREADME.md[0m              [33m [1mtest_bst.c[0m
+[33m [1mfloat_rndm.h[0m  [33m [1miom361_r2.h[0m  [36m [1m'Sample Output Files'[0m   transcript_hw5_app.txt
+[33m float_rndm.o[0m  [33m iom361_r2.o[0m  [33m [1mtemp_humid_bst.c[0m       
+[33m [1mhw5_app.c[0m     [33m [1;4mmakefile[0m     [33m [1mtemp_humid_bst.h[0m       
+[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 07:42:55 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004hm[1m[31mm[0m[39m[1m[31mm[0m[39m[90make[39m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[32mm[0m[32ma[0m[32mk[0m[32me[39m[?1l>[?2004l
+]2;make]1;makegcc -Wall -std=c99 -g -c temp_humid_bst.c
+gcc -Wall -std=c99 -g -c hw5_app.c
+In file included from hw5_app.c:20:
+[1m./temp_humid_bst.h:117:13: [0m[0;1;35mwarning: [0m[1munused function 'in_order_recursive' [-Wunused-function][0m
+  117 | static void in_order_recursive(Node_t* node);[0m
+      | [0;1;32m            ^~~~~~~~~~~~~~~~~~
+[0m[1m./temp_humid_bst.h:136:13: [0m[0;1;35mwarning: [0m[1munused function 'delete_tree_recursive' [-Wunused-function][0m
+  136 | static void delete_tree_recursive(Node_t* node);[0m
+      | [0;1;32m            ^~~~~~~~~~~~~~~~~~~~~
+[0m[1mhw5_app.c:256:13: [0m[0;1;35mwarning: [0m[1munused function 'shuffle' [-Wunused-function][0m
+  256 | static void shuffle(Data_t* array, size_t n) {[0m
+      | [0;1;32m            ^~~~~~~
+[0m3 warnings generated.
+gcc -o hw5_app float_rndm.o iom361_r2.o temp_humid_bst.o hw5_app.o
+[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 07:42:57 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004hl[32ml[39m[32ml[39m[90ms[39m[32ml[32ms[39m[?1l>[?2004l
+]2;eza --icons=always]1;ls[33m [1mfloat_rndm.c[0m  [33m hw5_app.o[0m    [33m [1;4mREADME.md[0m              [33m [1mtest_bst.c[0m
+[33m [1mfloat_rndm.h[0m  [33m [1miom361_r2.c[0m  [36m [1m'Sample Output Files'[0m   transcript_hw5_app.txt
+[33m float_rndm.o[0m  [33m [1miom361_r2.h[0m  [33m [1mtemp_humid_bst.c[0m       
+[31m hw5_app[0m       [33m iom361_r2.o[0m  [33m [1mtemp_humid_bst.h[0m       
+[33m [1mhw5_app.c[0m     [33m [1;4mmakefile[0m     [33m temp_humid_bst.o[0m       
+[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 07:42:59 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h.[32m.[39m[32m.[39m[90m/hw5_app[39m[8D[32m.[32m/[39m[4m[32m.[4m[32m/[24m[39m[39mh[39mw[39m5[39m_[39ma[39mp[39mp[9D[24m[32m.[24m[32m/[32mh[32mw[32m5[32m_[32ma[32mp[32mp[39m[?1l>[?2004l
+]2;./hw5_app]1;./hw5_app
+
+The Homework 5 Application created by Danny Restrepo (restrepo@pdx.edu)
+
+Current working directory: /Users/dannyvr/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables
+
+INFO(create_tree()): Successfully created a Temp/Humidity tree.
+Enter the starting month (1 to 12),day (1 to 31), and number of days (1 to 100): 8,1,30
+User requested 30 data items starting at  8/ 1/2023
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)	Enable=OFF
+INFO(main()): added timestamp 1691010000 from data[1] to BST
+INFO(insert()): Tree is empty... inserting root node.
+INFO(main()): added timestamp 1691614800 from data[8] to BST
+INFO(main()): added timestamp 1691874000 from data[11] to BST
+INFO(main()): added timestamp 1692997200 from data[24] to BST
+INFO(main()): added timestamp 1692910800 from data[23] to BST
+INFO(main()): added timestamp 1691701200 from data[9] to BST
+INFO(main()): added timestamp 1692824400 from data[22] to BST
+INFO(main()): added timestamp 1691787600 from data[10] to BST
+INFO(main()): added timestamp 1692219600 from data[15] to BST
+INFO(main()): added timestamp 1691096400 from data[2] to BST
+INFO(main()): added timestamp 1692565200 from data[19] to BST
+INFO(main()): added timestamp 1693256400 from data[27] to BST
+INFO(main()): added timestamp 1693083600 from data[25] to BST
+INFO(main()): added timestamp 1692046800 from data[13] to BST
+INFO(main()): added timestamp 1691960400 from data[12] to BST
+INFO(main()): added timestamp 1691355600 from data[5] to BST
+INFO(main()): added timestamp 1693170000 from data[26] to BST
+INFO(main()): added timestamp 1693342800 from data[28] to BST
+INFO(main()): added timestamp 1692478800 from data[18] to BST
+INFO(main()): added timestamp 1692392400 from data[17] to BST
+INFO(main()): added timestamp 1691442000 from data[6] to BST
+INFO(main()): added timestamp 1691528400 from data[7] to BST
+INFO(main()): added timestamp 1692738000 from data[21] to BST
+INFO(main()): added timestamp 1693429200 from data[29] to BST
+INFO(main()): added timestamp 1692651600 from data[20] to BST
+INFO(main()): added timestamp 1692133200 from data[14] to BST
+INFO(main()): added timestamp 1691182800 from data[3] to BST
+INFO(main()): added timestamp 1691269200 from data[4] to BST
+INFO(main()): added timestamp 1692306000 from data[16] to BST
+INFO(main()): added timestamp 1690923600 from data[0] to BST
+
+Enter a search date (mm/dd/yyyy): 7/31// 2023
+INFO(search()): Starting search for timestamp 1690837200.
+INFO(search()): Visiting these nodes:
+-> [1691010000] Wed Aug  2 14:00:00 2023
+-> [1690923600] Tue Aug  1 14:00:00 2023
+Did not find data for Timestamp 31-Jul-2023
+
+Enter a search date (mm/dd/yyyy): 8/1/2023
+INFO(search()): Starting search for timestamp 1690923600.
+INFO(search()): Visiting these nodes:
+-> [1691010000] Wed Aug  2 14:00:00 2023
+FOUND -> Tue Aug  1 14:00:00 2023
+Found data for Timestamp 01-Aug-2023
+01-Aug-2023     000806C5 (526.0F) 000BA569 (763.2%)
+
+Enter a search date (mm/dd/yyyy): 8/15/2023
+INFO(search()): Starting search for timestamp 1692133200.
+INFO(search()): Visiting these nodes:
+-> [1691010000] Wed Aug  2 14:00:00 2023
+-> [1691614800] Wed Aug  9 14:00:00 2023
+-> [1691874000] Sat Aug 12 14:00:00 2023
+-> [1692997200] Fri Aug 25 14:00:00 2023
+-> [1692910800] Thu Aug 24 14:00:00 2023
+-> [1692824400] Wed Aug 23 14:00:00 2023
+-> [1692219600] Wed Aug 16 14:00:00 2023
+-> [1692046800] Mon Aug 14 14:00:00 2023
+FOUND -> Tue Aug 15 14:00:00 2023
+Found data for Timestamp 15-Aug-2023
+15-Aug-2023     0009619B (614.8F) 00073C72 (474.2%)
+
+Enter a search date (mm/dd/yyyy): 9/1/2023
+INFO(search()): Starting search for timestamp 1693602000.
+INFO(search()): Visiting these nodes:
+-> [1691010000] Wed Aug  2 14:00:00 2023
+-> [1691614800] Wed Aug  9 14:00:00 2023
+-> [1691874000] Sat Aug 12 14:00:00 2023
+-> [1692997200] Fri Aug 25 14:00:00 2023
+-> [1693256400] Mon Aug 28 14:00:00 2023
+-> [1693342800] Tue Aug 29 14:00:00 2023
+-> [1693429200] Wed Aug 30 14:00:00 2023
+Did not find data for Timestamp 01-Sep-2023
+
+Enter a search date (mm/dd/yyyy): 
+
+Temperature/Humidity table:
+---------------------------
+INFO(in_order()): There are 30 nodes in the BST.
+01-Aug-2023     000806C5 000BA569
+02-Aug-2023     00083A2C 000D93BD
+03-Aug-2023     00099BDA 000C9A33
+04-Aug-2023     00088643 000711E7
+05-Aug-2023     000A513F 00069256
+06-Aug-2023     0009CCB5 0008E0AA
+07-Aug-2023     00095F5A 00081876
+08-Aug-2023     000AB1D1 0008B4E4
+09-Aug-2023     0008F5EB 0007885A
+10-Aug-2023     000A90A4 000A01E5
+11-Aug-2023     000A3C13 000AADDF
+12-Aug-2023     000AA1FF 00097ABF
+13-Aug-2023     00094BEC 000B82B2
+14-Aug-2023     000982DC 000C9826
+15-Aug-2023     0009619B 00073C72
+16-Aug-2023     000A1D88 00099D87
+17-Aug-2023     0009B85D 00094BE2
+18-Aug-2023     000866B3 0006FE95
+19-Aug-2023     0009E82B 00086CFE
+20-Aug-2023     000A0CEA 000CC6FD
+21-Aug-2023     000997E3 000CA816
+22-Aug-2023     000A4A2F 0009DAD4
+23-Aug-2023     000992B7 000AC9A8
+24-Aug-2023     0008D02A 000D303D
+25-Aug-2023     0008D5F5 000BBB5B
+26-Aug-2023     00088497 000CBA1C
+27-Aug-2023     000861B6 0007329D
+28-Aug-2023     00084A86 0009AB97
+29-Aug-2023     000A4E48 000A489A
+30-Aug-2023     000981CC 000CE7D0
+[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/[34mS[0m[34m[49m[34m/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m·······[0m[30m[49m[30m [0m[30m[49m[33m 1m 2s[0m[33m[49m[33m[0m[33m[49m[33m[0m[33m[49m[36m  07:44:03 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004ha[1m[31ma[0m[39m[1m[31ma[1m[31mm[0m[39m[1m[31ma[0m[39m[0m[39m [0m[39m m[1m[31mm[0m[39m[1m[31mm[0m[39m[90make[39m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[32mm[0m[32ma[0m[32mk[0m[32me[39m[32me[32m [39m[32me[39m[39m [90mclean[39m[39mc[39ml[39me[39me[39m an   [90man[39m[39ma[39mn[?1l>[?2004l
+]2;make clean]1;makerm -f float_rndm.o iom361_r2.o temp_humid_bst.o hw5_app.o hw5_app
+[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 07:44:17 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004hl[32ml[39m[32ml[39m[90ms[39m[32ml[32ms[39m[?1l>[?2004l
+]2;eza --icons=always]1;ls[33m [1mfloat_rndm.c[0m  [33m [1miom361_r2.c[0m  [33m [1;4mREADME.md[0m              [33m [1mtemp_humid_bst.h[0m
+[33m [1mfloat_rndm.h[0m  [33m [1miom361_r2.h[0m  [36m [1m'Sample Output Files'[0m  [33m [1mtest_bst.c[0m
+[33m [1mhw5_app.c[0m     [33m [1;4mmakefile[0m     [33m [1mtemp_humid_bst.c[0m        transcript_hw5_app.txt
+[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 07:44:19 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[?2004l
+
+Script done on Fri Dec  6 07:44:22 2024

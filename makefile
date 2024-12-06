@@ -37,4 +37,4 @@ clean:
 float_rndm.o: float_rndm.c float_rndm.h
 iom361_r2.o: iom361_r2.c iom361_r2.h
 temp_humid_bst.o: temp_humid_bst.c temp_humid_bst.h
-hw5_app.o: hw5_app.c tempHumidtree.h iom361_r2.h float_rndm.h
+hw5_app.o: hw5_app.c temp_humid_bst.h iom361_r2.h float_rndm.h

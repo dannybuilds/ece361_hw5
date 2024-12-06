@@ -66,8 +66,6 @@ Node_t* insert(Tree_t* tree, Data_t info) {
     }
 
     // Finds insertion point in non-empty tree
-    printf("INFO(insert()): Tree is populated... "
-           "looking for insertion point.\n");
     Node_t* current = tree->root;
     Node_t* parent = NULL;
     
