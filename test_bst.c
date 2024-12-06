@@ -37,7 +37,7 @@ int main(void) {
     // Displays program introduction and current working directory
     greeting();
 
-    // Initialize iom361 module
+    // Initializes iom361 module
     int rtn_code;
     uint32_t* io_base = iom361_initialize(16, 16, &rtn_code);
 
@@ -48,10 +48,10 @@ int main(void) {
 
     printf("INFO(main()): Initialize iom361\n");
 
-    // Test all error conditions first
+    // Tests all error conditions first
     test_error_conditions();
 
-    // Create main test tree
+    // Creates main test tree
     Tree_t* tree = create_tree();
 
     if (tree == NULL) {
@@ -59,14 +59,14 @@ int main(void) {
         return 1;
     }
 
-    // Build and test the BST
+    // Builds and tests the BST
     build_test_tree(tree);
     
-    // Perform search tests
+    // Performs search tests
     printf("\nSearching BST for all timestamps... plus a few others\n");
     search_test_cases(tree);
 
-    // Display final sorted data
+    // Displays final sorted data
     printf("\nTemperature/Humidity table:\n");
     printf("---------------------------\n");
     in_order(tree);

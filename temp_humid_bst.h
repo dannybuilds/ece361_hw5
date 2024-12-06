@@ -22,7 +22,7 @@
 
  /*********************** Definitions, Typedefs, Structs ************************/
 
-// Define data item struct to hold sensor reading data
+// Defines data item struct to hold sensor reading data
 typedef struct temperature_humidity_data {
     time_t timestamp;   // Time the reading was taken
     uint32_t temp;      // Temperature reading from sensor
@@ -31,7 +31,7 @@ typedef struct temperature_humidity_data {
 
 
 
-// Define the binary search tree node structure
+// Defines the binary search tree node structure
 typedef struct binary_search_tree_node {
     Data_t data;                             // Node's data
     struct binary_search_tree_node* left;    // Pointer to left child
@@ -40,7 +40,7 @@ typedef struct binary_search_tree_node {
 
 
 
-// Define the temp/humidity binary search tree structure
+// Defines the temp/humidity binary search tree structure
 typedef struct temperature_humidity_binary_search_tree {
     Node_t* root;       // Pointer to root node of tree
     int node_count;     // Number of nodes in tree
