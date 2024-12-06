@@ -1,0 +1,214 @@
+Script started on Fri Dec  6 05:58:04 2024
+[0m[49m[39m[27m[24m[K
+
+[2A7[0m[49m[39m[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 05:58:04 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[?2004h[?25l8[0m[49m[39m[27m[24m[J]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[34m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                          [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 05:58:04 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?25h[?2004hscript transcript_BST_ADT_test.txt[34D[32ms[32mc[32mr[32mi[32mp[32mt[39m [4mt[4mr[4ma[4mn[4ms[4mc[4mr[4mi[4mp[4mt[4m_[4mB[4mS[4mT[4m_[4mA[4mD[4mT[4m_[4mt[4me[4ms[4mt[4m.[4mt[4mx[4mt[24m[34D[32mc[32ml[32me[32ma[32mr[39m[39m  [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [29D[32mg[32mc[32mc[32m [32m-[39mWall -std=c99 -c temp_humid_bst.c[36D[32mc[39m[39m [39m-[17C[4mt[4me[4mm[4mp[4m_[4mh[4mu[4mm[4mi[4md[4m_[4mb[4ms[4mt[4m.[4mc[24m[38D[32mw[32mh[32mo[39mami && ls          [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [26D[10D[32mo[32ma[32mm[32mi[39m[4C[32ml[32ms[39m[?1l>[?2004l
+]2;whoami && eza --icons=always]1;whoamidannyvr
+[33m [1mBinaryTree.c[0m  [33m [1mhw5_app.c[0m    [33m [1mtemp_humid_bst.c[0m        [33m [1mtest_float_rndm.c[0m
+[33m [1mfloat_rndm.c[0m  [33m [1miom361_r2.c[0m  [33m [1mtemp_humid_bst.h[0m        [33m [1mtest_iom361_r2.c[0m
+[33m [1mfloat_rndm.h[0m  [33m [1miom361_r2.h[0m  [33m [1mtemp_humidity_sensor.c[0m  [36m [1m'Test Files'[0m
+[33m float_rndm.o[0m  [33m iom361_r2.o[0m  [33m [1mtest_bst.c[0m               transcript_BST_ADT_test.txt
+[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 05:58:07 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004hwhoami && ls[12D[32mw[32mh[32mo[32ma[32mm[32mi[39m[4C[32ml[32ms[39m[12D[32ms[32mc[32mr[32mi[32mp[32mt[39m tra[32mn[32ms[39mcript_BST_ADT_test.txt[27D[4mt[4mr[4ma[39m[4mn[39m[4ms[4mc[4mr[4mi[4mp[4mt[4m_[4mB[4mS[4mT[4m_[4mA[4mD[4mT[4m_[4mt[4me[4ms[4mt[4m.[4mt[4mx[4mt[24m[34D[32mc[32ml[32me[32ma[32mr[39m[39m  [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [29D[32mg[32mc[32mc[32m [32m-[39mWall -std=c99 -c temp_humid_bst.c[36D[32mc[39m[39m [39m-[17C[4mt[4me[4mm[4mp[4m_[4mh[4mu[4mm[4mi[4md[4m_[4mb[4ms[4mt[4m.[4mc[24m[?1l>[?2004l
+]2;gcc -Wall -std=c99 -c temp_humid_bst.c]1;gcc[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 05:58:10 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004hg[32mg[39m[32mg[39m[90mcc -Wall -std=c99 -c temp_humid_bst.c[39m[37D[32mg[32mc[39m[32mg[32mc[32mc[39m[32mc[32m [39m[32mc[39m[39m [39m-[39mW[39ma[39ml[39ml[39m [39m-[39ms[39mt[39md[39m=[39mc[39m9[39m9[39m [39m-[39mc[39m [39mt[4mt[24m[4mt[39m[4me[24m[4me[39m[4ms[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90mt_bst.c[39m[4ms[39m[4mt[24m[39m_[39mb[39ms[39mt[39m.[39mc[4mt[4m_[4mb[4ms[4mt[4m.[4mc[24m[?1l>[?2004l
+]2;gcc -Wall -std=c99 -c test_bst.c]1;gcc[1mtest_bst.c:42:15: [0m[0;1;35mwarning: [0m[1munused variable 'io_base' [-Wunused-variable][0m
+   42 |     uint32_t* io_base = iom361_initialize(16, 16, &rtn_code);[0m
+      | [0;1;32m              ^~~~~~~
+[0mIn file included from test_bst.c:19:
+[1m./temp_humid_bst.h:117:13: [0m[0;1;35mwarning: [0m[1munused function 'in_order_recursive' [-Wunused-function][0m
+  117 | static void in_order_recursive(Node_t* node);[0m
+      | [0;1;32m            ^~~~~~~~~~~~~~~~~~
+[0m2 warnings generated.
+[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 05:58:26 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004hg[32mg[39m[32mg[39m[90mcc -Wall -std=c99 -c test_bst.c[39m[31D[32mg[32mc[39m[32mg[32mc[32mc[39m[32mc[32m [39m[32mc[39m[39m [39m-[39mW[39ma[39ml[39ml[39m [39m-[39ms[39mt[39md[39m=[39mc[39m9[39m9[39m [39m-[39mc [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[90mc test_bst.c[39m[12D[39mo[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90m test_bst test_bst.o temp_humid_bst.o iom361_r2.o float_rndm.o[39m[62D[39m [39mt[4mt[24m[4mt[39m[4me[24m[4me[39m[4ms[24m[4ms[39m[4mt[24m[4mt[39m[4m_[24m[4m_[39m[4mb[24m[4mb[39m[4ms[24m[4ms[39m[4mt[24m[4mt[39m[4m [24m[9D[24mt[24me[24ms[24mt[24m_[24mb[24ms[24mt[24m [39mt[39me[39ms[39mt[39m_[39mb[39ms[39mt[39m.[39mo[39m [39mt[39me[39mm[39mp[39m_[39mh[39mu[39mm[39mi[39md[39m_[39mb[39ms[39mt[39m.[39mo[39m [39mi[39mo[39mm[39m3[39m6[39m1[39m_[39mr[39m2[39m.[39mo[39m [39mf[39ml[39mo[39ma[39mt[39m_[39mr[39mn[39md[39mm[39m.[39mo[52D[4mt[4me[4ms[4mt[4m_[4mb[4ms[4mt[4m.[4mo[24m [4mt[4me[4mm[4mp[4m_[4mh[4mu[4mm[4mi[4md[4m_[4mb[4ms[4mt[4m.[4mo[24m [4mi[4mo[4mm[4m3[4m6[4m1[4m_[4mr[4m2[4m.[4mo[24m [4mf[4ml[4mo[4ma[4mt[4m_[4mr[4mn[4md[4mm[4m.[4mo[24m[?1l>[?2004l
+]2;gcc -Wall -std=c99 -o test_bst test_bst.o temp_humid_bst.o iom361_r2.o ]1;gcc[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 05:59:09 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004ht[4mt[24m[4mt[24m[90mree[39m[4mt[39m[4me[24m[39m [39m [4mt[4me[4ms[24m[4ms[4mt[24m[24m[32mt[24m[32me[24m[32ms[24m[32mt[39m[32ms[39m[39m [39m[4mt[39m[4me[39m[4ms[24m[4mt[4me[24m[24m [4mt[24m[24m [4mt[24m[90mree[39m[24m [39m [39m [39m .[32m.[39m[32m.[39m[90m/test_bst[39m[9D[32m.[32m/[39m[4m[32m.[4m[32m/[24m[39m[39mt[39me[39ms[39mt[39m_[39mb[39ms[39mt[10D[24m[32m.[24m[32m/[32mt[32me[32ms[32mt[32m_[32mb[32ms[32mt[39m[?1l>[?2004l
+]2;./test_bst]1;./test_bst
+
+Binary Search Tree ADT Test App created by Danny Restrepo (restrepo@pdx.edu)
+
+Current working directory: /Users/dannyvr/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables
+
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)	Enable=OFF
+INFO(main()): Initialize iom361
+
+
+Testing error conditions:
+
+Test 1: NULL tree operations
+ERROR(insert()): Cannot insert into NULL tree.
+ERROR(search()): Cannot search NULL tree.
+ERROR(in_order()): Cannot traverse NULL tree.
+
+Test 2: Invalid timestamp search
+INFO(create_tree()): Successfully created a Temp/Humidity tree.
+ERROR(search()): Invalid timestamp -1.
+
+Test of error conditions complete!
+
+INFO(create_tree()): Successfully created a Temp/Humidity tree.
+INFO(insert()): Tree is empty... inserting root node.
+INFO(main()): added data[0] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[1] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[2] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[3] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[4] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[5] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[6] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[7] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[8] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[9] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[10] to BST
+INFO(insert()): Tree is populated... looking for insertion point.
+INFO(main()): added data[11] to BST
+
+Searching BST for all timestamps... plus a few others
+INFO(search()): Starting search for timestamp 1709334000.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709420400] Sat Mar  2 15:00:00 2024
+FOUND -> Fri Mar  1 15:00:00 2024
+
+Found data for timestamp 01-Mar-2024
+INFO(search()): Starting search for timestamp 1709420400.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+FOUND -> Sat Mar  2 15:00:00 2024
+
+Found data for timestamp 02-Mar-2024
+INFO(search()): Starting search for timestamp 1709506800.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709420400] Sat Mar  2 15:00:00 2024
+FOUND -> Sun Mar  3 15:00:00 2024
+
+Found data for timestamp 03-Mar-2024
+INFO(search()): Starting search for timestamp 1709593200.
+INFO(search()): Visiting these nodes:
+FOUND -> Mon Mar  4 15:00:00 2024
+
+Found data for timestamp 04-Mar-2024
+INFO(search()): Starting search for timestamp 1709679600.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709938800] Fri Mar  8 15:00:00 2024
+FOUND -> Tue Mar  5 15:00:00 2024
+
+Found data for timestamp 05-Mar-2024
+INFO(search()): Starting search for timestamp 1709766000.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709938800] Fri Mar  8 15:00:00 2024
+-> [1709679600] Tue Mar  5 15:00:00 2024
+-> [1709852400] Thu Mar  7 15:00:00 2024
+FOUND -> Wed Mar  6 15:00:00 2024
+
+Found data for timestamp 06-Mar-2024
+INFO(search()): Starting search for timestamp 1709852400.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709938800] Fri Mar  8 15:00:00 2024
+-> [1709679600] Tue Mar  5 15:00:00 2024
+FOUND -> Thu Mar  7 15:00:00 2024
+
+Found data for timestamp 07-Mar-2024
+INFO(search()): Starting search for timestamp 1709938800.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+FOUND -> Fri Mar  8 15:00:00 2024
+
+Found data for timestamp 08-Mar-2024
+INFO(search()): Starting search for timestamp 1710025200.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709938800] Fri Mar  8 15:00:00 2024
+-> [1710198000] Mon Mar 11 16:00:00 2024
+FOUND -> Sat Mar  9 15:00:00 2024
+
+Found data for timestamp 09-Mar-2024
+INFO(search()): Starting search for timestamp 1710111600.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709938800] Fri Mar  8 15:00:00 2024
+-> [1710198000] Mon Mar 11 16:00:00 2024
+-> [1710025200] Sat Mar  9 15:00:00 2024
+FOUND -> Sun Mar 10 16:00:00 2024
+
+Found data for timestamp 10-Mar-2024
+INFO(search()): Starting search for timestamp 1710198000.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709938800] Fri Mar  8 15:00:00 2024
+FOUND -> Mon Mar 11 16:00:00 2024
+
+Found data for timestamp 11-Mar-2024
+INFO(search()): Starting search for timestamp 1710284400.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709938800] Fri Mar  8 15:00:00 2024
+-> [1710198000] Mon Mar 11 16:00:00 2024
+FOUND -> Tue Mar 12 16:00:00 2024
+
+Found data for timestamp 12-Mar-2024
+INFO(search()): Starting search for timestamp 1710370800.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709938800] Fri Mar  8 15:00:00 2024
+-> [1710198000] Mon Mar 11 16:00:00 2024
+-> [1710284400] Tue Mar 12 16:00:00 2024
+Did not find data for timestamp 13-Mar-2024
+INFO(search()): Starting search for timestamp 1710457200.
+INFO(search()): Visiting these nodes:
+-> [1709593200] Mon Mar  4 15:00:00 2024
+-> [1709938800] Fri Mar  8 15:00:00 2024
+-> [1710198000] Mon Mar 11 16:00:00 2024
+-> [1710284400] Tue Mar 12 16:00:00 2024
+Did not find data for timestamp 14-Mar-2024
+
+Temperature/Humidity table:
+---------------------------
+INFO(in_order()): There are 12 nodes in the BST.
+01-Mar-2024     0007F62C 000CFE43
+02-Mar-2024     00082489 000C6763
+03-Mar-2024     00079496 000DB372
+04-Mar-2024     0007AF2E 000D8E24
+05-Mar-2024     00077D17 000BCD1C
+06-Mar-2024     0007F5FB 000CA8B0
+07-Mar-2024     00078A30 000CDB00
+08-Mar-2024     0007EB95 000D9669
+09-Mar-2024     0007DE23 000BE008
+10-Mar-2024     0007A124 000CDA24
+11-Mar-2024     0007F411 000D8EDA
+12-Mar-2024     0007D6E8 000C6A4B
+
+
+Temp & Humid BST ADT test program complete!
+
+[1m[7m%[27m[1m[0m                                                                                           ]2;dannyvr@hans:~/Downloads/ECE 361 Homework 5/Submission/restrepo_hw5_ece361f4/All Deliverables]1;.. Deliverables]7;file://hans.local/Users/dannyvr/Downloads/ECE%20361%20Homework%205/Submission/restrepo_hw5_ece361f4/All%20Deliverables\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[30m╭─[0m[30m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[34m [34m~[0m[34m[49m[34m/[34mDow[0m[34m[49m[34m/[34mECE 36[0m[34m[49m[34m/Submission/restrepo_hw5_ece361f4/[34mAll Deliverables[0m[34m[49m[34m[0m[34m[49m[34m[0m[34m[49m[30m [0m[30m[49m[39m[30m······[0m[30m[49m[30m [0m[30m[49m[36m 05:59:15 AM[0m[36m[49m[36m[0m[36m[49m[36m[0m[36m[49m[39m
+[0m[49m[39m[30m╰─[0m[30m[49m[32m❯[0m[32m[49m[32m[0m[32m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h
+fwd-i-search: _[K[A[11D[1B[K[A[4C[?2004l[1B
+Script done on Fri Dec  6 05:59:22 2024

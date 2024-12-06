@@ -30,7 +30,7 @@ Tree_t* create_tree(void) {
                "Temp/Humidity tree.\n");
     }
     else {
-        printf("ERROR(create_tree()): Failed to create tree.\n")
+        printf("ERROR(create_tree()): Failed to create tree.\n");
     }
 
     return new_tree;
