@@ -1,5 +1,5 @@
 /**
- * @file         temp_humid_bst.c
+ * @file        temp_humid_bst.c
  * @brief
  * Implements the Binary Search Tree ADT functions defined in temp_humid_bst.h.
  * Provides creation, insertion, search, and traversal operations for handling
@@ -28,6 +28,9 @@ Tree_t* create_tree(void) {
         new_tree->node_count = 0;
         printf("INFO(create_tree()): Successfully created a "
                "Temp/Humidity tree.\n");
+    }
+    else {
+        printf("ERROR(create_tree()): Failed to create tree.\n")
     }
 
     return new_tree;

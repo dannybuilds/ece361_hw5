@@ -1,5 +1,5 @@
 /**
- * @file         temp_humid_bst.h
+ * @file        temp_humid_bst.h
  * @brief
  * Defines a Binary Search Tree (BST) ADT specialized for storing temperature 
  * and humidity sensor readings with timestamps. The BST maintains data

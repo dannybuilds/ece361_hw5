@@ -1,14 +1,14 @@
 /**
  * @file         test_bst.c
- * @brief        Test program for Temperature/Humidity Binary Search Tree ADT
+ * @brief       Test program for Temperature/Humidity Binary Search Tree ADT
  *
  * This program tests the Binary Search Tree ADT implementation for storing
  * temperature and humidity readings. It verifies basic functionality and error
  * handling by creating a test tree, performing various operations, and checking
  * the results.
  *
- * @author       Danny V. Restrepo (restrepo@pdx.edu)
- * @date         06-Dec-2024
+ * @author      Danny V. Restrepo (restrepo@pdx.edu)
+ * @date        06-Dec-2024
  */
 
 #include <stdio.h>
